@@ -1,1121 +1,0 @@
-Dependencies for Project '3508MotorDrive', Target '3508MotorDrive': (DO NOT MODIFY !)
-F (startup_stm32f105xc.s)(0x5CD6A035)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 523" --pd "STM32F10X_CL SETA 1"--list startup_stm32f105xc.lst --xref -o 3508motordrive\startup_stm32f105xc.o --depend 3508motordrive\startup_stm32f105xc.d)
-F (..\BSP\bsp_can.c)(0x5CFD10F8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\bsp_can.o --omf_browse 3508motordrive\bsp_can.crf --depend 3508motordrive\bsp_can.d)
-I (../Inc/can.h)(0x5CD6A030)
-I (../Inc/main.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-I (..\BSP\bsp_can.h)(0x5CFD07EF)
-I (..\BSP\mytype.h)(0x5C95ADA3)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\string.h)(0x57F606B8)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
-F (..\BSP\pid.c)(0x5CD68544)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\pid.o --omf_browse 3508motordrive\pid.crf --depend 3508motordrive\pid.d)
-I (..\BSP\pid.h)(0x5CAD5568)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-I (..\BSP\mytype.h)(0x5C95ADA3)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\string.h)(0x57F606B8)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\math.h)(0x57F606B6)
-F (..\BSP\BSP_UART\bsp_uart.c)(0x5CF67392)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\bsp_uart.o --omf_browse 3508motordrive\bsp_uart.crf --depend 3508motordrive\bsp_uart.d)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\string.h)(0x57F606B8)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
-I (..\BSP\BSP_UART\bsp_uart.h)(0x5CAE914A)
-I (../Inc/usart.h)(0x5CD6A031)
-I (../Inc/main.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (..\BSP\mytype.h)(0x5C95ADA3)()
-F (..\BSP\oled.c)(0x5CEE0EB3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\oled.o --omf_browse 3508motordrive\oled.crf --depend 3508motordrive\oled.d)
-I (..\BSP\oled.h)(0x5CEE0ED9)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-I (../Inc/spi.h)(0x5CD6A031)
-I (../Inc/main.h)(0x5CD6A032)
-I (..\BSP\oledfont.h)(0x5CEE0E69)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\math.h)(0x57F606B6)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
-F (../Src/main.c)(0x5CFD17B0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\main.o --omf_browse 3508motordrive\main.crf --depend 3508motordrive\main.d)
-I (../Inc/main.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-I (../Inc/adc.h)(0x5CD6A030)
-I (../Inc/can.h)(0x5CD6A030)
-I (../Inc/dma.h)(0x5CD6A031)
-I (../Inc/spi.h)(0x5CD6A031)
-I (../Inc/tim.h)(0x5CD6A031)
-I (../Inc/usart.h)(0x5CD6A031)
-I (../Inc/gpio.h)(0x5CD6A02E)
-I (..\BSP\pid.h)(0x5CAD5568)
-I (..\BSP\bsp_can.h)(0x5CFD07EF)
-I (..\BSP\mytype.h)(0x5C95ADA3)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\string.h)(0x57F606B8)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
-I (..\BSP\BSP_UART\bsp_uart.h)(0x5CAE914A)
-I (..\BSP\oled.h)(0x5CEE0ED9)
-F (../Src/gpio.c)(0x5CD6A02E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\gpio.o --omf_browse 3508motordrive\gpio.crf --depend 3508motordrive\gpio.d)
-I (../Inc/gpio.h)(0x5CD6A02E)
-I (../Inc/main.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Src/adc.c)(0x5CF639FA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\adc.o --omf_browse 3508motordrive\adc.crf --depend 3508motordrive\adc.d)
-I (../Inc/adc.h)(0x5CD6A030)
-I (../Inc/main.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Src/can.c)(0x5CD6A133)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\can.o --omf_browse 3508motordrive\can.crf --depend 3508motordrive\can.d)
-I (../Inc/can.h)(0x5CD6A030)
-I (../Inc/main.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Src/dma.c)(0x5CD6A031)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\dma.o --omf_browse 3508motordrive\dma.crf --depend 3508motordrive\dma.d)
-I (../Inc/dma.h)(0x5CD6A031)
-I (../Inc/main.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Src/spi.c)(0x5CD6A031)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\spi.o --omf_browse 3508motordrive\spi.crf --depend 3508motordrive\spi.d)
-I (../Inc/spi.h)(0x5CD6A031)
-I (../Inc/main.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Src/tim.c)(0x5CD6A0EB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\tim.o --omf_browse 3508motordrive\tim.crf --depend 3508motordrive\tim.d)
-I (../Inc/tim.h)(0x5CD6A031)
-I (../Inc/main.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Src/usart.c)(0x5CD6A031)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\usart.o --omf_browse 3508motordrive\usart.crf --depend 3508motordrive\usart.d)
-I (../Inc/usart.h)(0x5CD6A031)
-I (../Inc/main.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Src/stm32f1xx_it.c)(0x5CD6A031)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_it.o --omf_browse 3508motordrive\stm32f1xx_it.crf --depend 3508motordrive\stm32f1xx_it.d)
-I (../Inc/main.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_it.h)(0x5CD6A032)
-I (..\BSP\BSP_UART\bsp_uart.h)(0x5CAE914A)
-I (../Inc/usart.h)(0x5CD6A031)
-F (../Src/stm32f1xx_hal_msp.c)(0x5CD6A032)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_msp.o --omf_browse 3508motordrive\stm32f1xx_hal_msp.crf --depend 3508motordrive\stm32f1xx_hal_msp.d)
-I (../Inc/main.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_gpio_ex.o --omf_browse 3508motordrive\stm32f1xx_hal_gpio_ex.crf --depend 3508motordrive\stm32f1xx_hal_gpio_ex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_adc.o --omf_browse 3508motordrive\stm32f1xx_hal_adc.crf --depend 3508motordrive\stm32f1xx_hal_adc.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_adc_ex.o --omf_browse 3508motordrive\stm32f1xx_hal_adc_ex.crf --depend 3508motordrive\stm32f1xx_hal_adc_ex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_can.o --omf_browse 3508motordrive\stm32f1xx_hal_can.crf --depend 3508motordrive\stm32f1xx_hal_can.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_spi.o --omf_browse 3508motordrive\stm32f1xx_hal_spi.crf --depend 3508motordrive\stm32f1xx_hal_spi.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_spi_ex.o --omf_browse 3508motordrive\stm32f1xx_hal_spi_ex.crf --depend 3508motordrive\stm32f1xx_hal_spi_ex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_tim.o --omf_browse 3508motordrive\stm32f1xx_hal_tim.crf --depend 3508motordrive\stm32f1xx_hal_tim.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_tim_ex.o --omf_browse 3508motordrive\stm32f1xx_hal_tim_ex.crf --depend 3508motordrive\stm32f1xx_hal_tim_ex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_uart.o --omf_browse 3508motordrive\stm32f1xx_hal_uart.crf --depend 3508motordrive\stm32f1xx_hal_uart.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x571E2D5F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal.o --omf_browse 3508motordrive\stm32f1xx_hal.crf --depend 3508motordrive\stm32f1xx_hal.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_rcc.o --omf_browse 3508motordrive\stm32f1xx_hal_rcc.crf --depend 3508motordrive\stm32f1xx_hal_rcc.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_rcc_ex.o --omf_browse 3508motordrive\stm32f1xx_hal_rcc_ex.crf --depend 3508motordrive\stm32f1xx_hal_rcc_ex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_gpio.o --omf_browse 3508motordrive\stm32f1xx_hal_gpio.crf --depend 3508motordrive\stm32f1xx_hal_gpio.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_dma.o --omf_browse 3508motordrive\stm32f1xx_hal_dma.crf --depend 3508motordrive\stm32f1xx_hal_dma.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_cortex.o --omf_browse 3508motordrive\stm32f1xx_hal_cortex.crf --depend 3508motordrive\stm32f1xx_hal_cortex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_pwr.o --omf_browse 3508motordrive\stm32f1xx_hal_pwr.crf --depend 3508motordrive\stm32f1xx_hal_pwr.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_flash.o --omf_browse 3508motordrive\stm32f1xx_hal_flash.crf --depend 3508motordrive\stm32f1xx_hal_flash.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x571E2CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\stm32f1xx_hal_flash_ex.o --omf_browse 3508motordrive\stm32f1xx_hal_flash_ex.crf --depend 3508motordrive\stm32f1xx_hal_flash_ex.d)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)
-F (../Src/system_stm32f1xx.c)(0x5C4AB3B4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\BSP -I ..\BSP\BSP_UART -I ..\BSP\IMU-I.\RTE\_3508MotorDrive-I"D:\Program Files (x86)\MDK523\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\Program Files (x86)\MDK523\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_CL -DUSE_HAL_DRIVER -DSTM32F105xC-o 3508motordrive\system_stm32f1xx.o --omf_browse 3508motordrive\system_stm32f1xx.crf --depend 3508motordrive\system_stm32f1xx.d)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x571DE09C)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h)(0x571DE09C)
-I (../Drivers/CMSIS/Include/core_cm3.h)(0x563336C5)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdint.h)(0x5C924158)
-I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x563336C5)
-I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x563336C5)
-I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x571DE09C)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x571E2CF8)
-I (../Inc/stm32f1xx_hal_conf.h)(0x5CD6A032)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x571E2F9D)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x571E2F9D)
-I (D:\Program Files (x86)\MDK523\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x571E2CF8)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x571E2CF8)

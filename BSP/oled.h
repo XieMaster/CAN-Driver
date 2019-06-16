@@ -41,23 +41,23 @@ typedef enum
 }Pen_Typedef;
 
 /* function define */
-void oled_init(void);                       //oled 初始化
+void oled_init(void);                                                                   //oled 初始化
 void oled_write_byte(uint8_t dat, uint8_t cmd);
-void oled_display_on(void);                 //oled 显示打开
-void oled_display_off(void);                //oled 显示关闭
-void oled_refresh_gram(void);               //oled 刷新
-void oled_clear(Pen_Typedef pen);           //oled 清屏
-void oled_drawpoint(int8_t x, int8_t y, Pen_Typedef pen);           //oled 显示点
+void oled_display_on(void);                                                             //oled 显示打开
+void oled_display_off(void);                                                            //oled 显示关闭
+void oled_refresh_gram(void);                                                           //oled 刷新
+void oled_clear(Pen_Typedef pen);                                                       //oled 清屏
+void oled_drawpoint(int8_t x, int8_t y, Pen_Typedef pen);                               //oled 显示点
 void oled_drawline(uint8_t x1, uint8_t y1, uint8_t x2, uint8_t y2, Pen_Typedef pen);    //oled 画线(x1,y1,x2,y2,Pen_Write/Pen_Clear)
-void oled_showchar(uint8_t row, uint8_t col, uint8_t chr);          //oled 显示字符
+void oled_showchar(uint8_t row, uint8_t col, uint8_t chr);                              //oled 显示字符
 void oled_shownum(uint8_t row, uint8_t col, uint32_t num, uint8_t mode, uint8_t len);   //oled 显示数字(行，列，数字，模式，长度)
-void oled_showstring(uint8_t row, uint8_t col, uint8_t *chr);       //oled 显示字符串
-void oled_printf(uint8_t row, uint8_t col, const char *fmt,...);    //oled 打印显示
-void oled_RM_LOGO(void);                    //RM LOGO 显示
-void oled_JXJD_LOGO(void);                  //江西机电校徽 LOGO 显示
-void oled_JXJD_WZ(void);                    //江西机电 文字 显示
-void oled_Robotac_LOGO(void);               //Robotac LOGO 显示
-void oled_showCHN(uint8_t row, uint8_t col, uint8_t chr);   //显示中文
+void oled_showstring(uint8_t row, uint8_t col, uint8_t *chr);                           //oled 显示字符串
+void oled_printf(uint8_t row, uint8_t col, const char *fmt,...);                        //oled 打印显示
+void oled_RM_LOGO(void);                                                                //RM LOGO 显示
+void oled_JXJD_LOGO(void);                                                              //江西机电校徽 LOGO 显示
+void oled_JXJD_WZ(void);                                                                //江西机电 文字 显示
+void oled_Robotac_LOGO(void);                                                           //Robotac LOGO 显示
+void oled_showCHN(uint8_t row, uint8_t col, uint8_t chr);                               //显示中文
 //row 行 col 列 
 #endif
 

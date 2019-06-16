@@ -16,13 +16,13 @@
 
 #include <stdio.h> 
 
-/*******!!!!!!!!!!!!!!!!!!!! 接收机总线信号选择 二选一 !!!!!!!!!!!!!!!!!*******/
+/****************************************** 接收机总线信号选择 二选一 ******************************************/
 
 //#define DBUS	    //const DBUS  
 #define SBUS	    //const SBUS 
 
 #define __HAL_DMA_SET_COUNTER(__HANDLE__, __COUNTER__) ((__HANDLE__)->Instance->CNDTR = (uint16_t)(__COUNTER__))
-//定义了 DMA设置counter ，F1的stm32f1xx_hal_dma.h库中没有此函数
+//定义了 DMA设置counter ，F1的stm32f1xx_hal_dma.h库中没找到此函数
 
 /************************************************* DBUS ********************************************************/
 uint8_t   dbus_buf[DBUS_BUFLEN];
@@ -253,7 +253,7 @@ void uart_receive_handler(UART_HandleTypeDef *huart)
 	if (__HAL_UART_GET_FLAG(huart, UART_FLAG_IDLE) && 
 			__HAL_UART_GET_IT_SOURCE(huart, UART_IT_IDLE))
 	{
-		uart_rx_idle_callback(huart);           //在uart接收到帧数据后清除idle it标志             
+		uart_rx_idle_callback(huart);       //在uart接收到帧数据后清除idle it标志             
 	}
 }
 
